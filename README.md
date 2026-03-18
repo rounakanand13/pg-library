@@ -28,8 +28,3 @@ npm run serve
 - `requirements.txt`: Python dependencies for local and deployment builds
 - `data/essays.json`: generated content dataset
 - `dist/`: generated site output
-
-## Notes
-
-- The older repo `https://github.com/avyfain/pg-essays` was audited before reuse and only used as a reference for extraction heuristics.
-- This project republishes essay text. For a public deployment, confirm you have the right to host the full corpus.
