@@ -61,6 +61,10 @@ def shell(
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{escape(styles_href)}">
   <script defer src="{escape(script_href)}"></script>
+  <script>
+    window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body {body_attrs}>
   <div class="ambient ambient--one"></div>
