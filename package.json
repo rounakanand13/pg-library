@@ -1,0 +1,10 @@
+{
+  "name": "pg-book",
+  "private": true,
+  "scripts": {
+    "scrape": "python3 scripts/scrape_pg.py",
+    "build": "python3 scripts/build_site.py",
+    "refresh": "python3 scripts/scrape_pg.py && python3 scripts/build_site.py",
+    "serve": "python3 -m http.server 8000 --directory dist"
+  }
+}
